@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@media only screen and (min-width: 587) {
+
+    }
+@media only screen and (max-width: 587) {
+    .SiteR {
+        font-size: 30px;
+    }
+}
+.fundo-diagonal {
+    max-width: 100%;
+    margin: 0;
+    width: 300%;
+    height: 425px;
+    background-image: url("Imagens/Fundo8.jpg");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: linear-gradient(#2FAFA9, #0c423f); */
+    background-position: center;
+    transform: skew(0deg, +10deg) translateY(-150px);
+}
+.nomeProjeto {
+    transform: skew(0deg, -10deg) translateY(+200px);
+    font-size: calc(1em + 1vw);
+    color: #FDFDFD;
+    padding-left: 100px;
+    font-family: "Indie Flower";
+    font-weight: bold;
+}
+.Site {
+    transform: skew(0deg, -10deg) translateY(+200px);
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.SiteR{
+    float: right;
+    text-decoration: none;
+    color: #FDFDFD;
+    font-family: "Indie Flower";
+    font-weight: bold;
+    font-size: 30px;
+}
+.SiteR:hover {
+    text-decoration: none;
+    color: #620CE8;
+    font-weight: bold;
+}
+.mensagem-acesso {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    padding-left: 100px;
+    font-family: "Indie Flower";
+    font-size: calc(1.5em + 1vw);
+    margin-top: -90px;
+}
+.caixa-mensagem {
+    max-width: 50%;
+}
+/* .imagemBrasao {
+    width: 200px;
+    height: 150px;
+    transform: skew(0deg, 10deg) translateY(100px);
+}
+*/
+.icones a i {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fundo {
+    background-image: linear-gradient(to right, #620CE8, black)
+}
+.menu {
+    font-family: "Roboto Slab";
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    width: 100%;
+    transform: skew(0deg, 0);
+    position: relative;
+    z-index: 1;
+}
+html {
+    background-image: linear-gradient(to right, #620CE8, black)
+}
